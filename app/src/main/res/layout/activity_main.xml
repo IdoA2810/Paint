@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/mainframe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/linearshit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_save"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "SAVE"
+            />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/button_clear"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text = "CLEAR"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/brushes_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/button_brushes"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "Brushes"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id = "@+id/colors_layout"
+            android:gravity = "bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight = "1"
+            >
+
+            <Button
+                android:id="@+id/button_colors"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text = "COLORS"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

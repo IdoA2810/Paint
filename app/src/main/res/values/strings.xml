@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Paint</string>
+    <color name="white">#FFFFFF</color>
+    <color name="green">#FF00FF00</color>
+    <color name="yellow">#FFFFFF00</color>
+    <color name="blue">#FF0000FF</color>
+    <color name="red">#FFFF0000</color>
+    <color name="black">#FF000000</color>
+</resources>
